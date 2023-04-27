@@ -1,9 +1,13 @@
+/** @format */
+
 .controlPane {
   padding: 24px;
   /* Optical centering */
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  overflow: auto;
+  white-space: nowrap;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
